@@ -1,0 +1,4 @@
+-keep class io.github.jan.supabase.** { *; }
+-keep class kotlinx.serialization.** { *; }
+-keep class org.mozilla.javascript.** { *; }
+-dontwarn org.mozilla.javascript.**
